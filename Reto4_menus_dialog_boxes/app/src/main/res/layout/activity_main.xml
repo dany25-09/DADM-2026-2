@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Barra superior con el menú -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white" />
+
+    <!-- Contenido del juego -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/first_human"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/one"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/two"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/three"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/four"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/five"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/six"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/seven"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/eight"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+                <Button
+                    android:id="@+id/nine"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:textSize="28sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- Este botón todavía puede quedarse -->
+        <Button
+            android:id="@+id/new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/new_game" />
+
+    </LinearLayout>
+
+</LinearLayout>
