@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="difficulty_choose">
+        Selecciona la dificultad
+    </string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_expert">Experto</string>
+    <string name="difficulty_harder">Difícil</string>
+    <string name="first_computer">Android comienza.</string>
+    <string name="first_human">Tú comienzas.</string>
+    <string name="menu_difficulty">Dificultad</string>
+    <string name="menu_new_game">Nueva partida</string>
+    <string name="menu_quit">Salir</string>
+    <string name="new_game">Nueva partida</string>
+    <string name="no">No</string>
+    <string name="quit_question">
+        ¿Quieres salir del juego?
+    </string>
+    <string name="quit_title">Salir</string>
+    <string name="result_computer_wins">¡Android ganó!</string>
+    <string name="result_human_wins">¡Ganaste!</string>
+    <string name="result_tie">¡Es un empate!</string>
+    <string name="score_format">
+        Tú: %1$d | Android: %2$d | Empates: %3$d
+    </string>
+    <string name="turn_computer">Turno de Android.</string>
+    <string name="turn_human">Tu turno.</string>
+    <string name="yes">Sí</string>
+    <style name="Theme.AndroidTicTacToe" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+</resources>
