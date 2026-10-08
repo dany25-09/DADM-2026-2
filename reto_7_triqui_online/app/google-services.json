@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "154148798224",
+    "firebase_url": "https://example-androidtic-tac-toe-default-rtdb.firebaseio.com",
+    "project_id": "example-androidtic-tac-toe",
+    "storage_bucket": "example-androidtic-tac-toe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154148798224:android:f8b0c41a3411810fdaaf95",
+        "android_client_info": {
+          "package_name": "com.example.androidtic_tac_toe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaHdsJQAcByRzZcKJKBXNPO4sDJyK5rA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

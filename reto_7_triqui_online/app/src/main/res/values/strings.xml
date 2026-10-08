@@ -1,0 +1,71 @@
+<resources>
+
+    <string name="app_name">Tic-Tac-Toe</string>
+
+    <string name="first_human">Tú comienzas.</string>
+    <string name="first_computer">Android comienza.</string>
+
+    <string name="turn_human">Tu turno.</string>
+    <string name="turn_computer">Turno de Android.</string>
+
+    <string name="result_tie">¡Es un empate!</string>
+    <string name="result_human_wins">¡Ganaste!</string>
+    <string name="result_computer_wins">¡Android ganó!</string>
+
+    <string name="new_game">Nueva partida</string>
+
+    <string name="score_format">
+        Tú: %1$d | Android: %2$d | Empates: %3$d
+    </string>
+
+    <!-- Menú -->
+    <string name="menu_new_game">Nueva partida</string>
+    <string name="menu_difficulty">Dificultad</string>
+    <string name="menu_quit">Salir</string>
+
+    <!-- Dificultad -->
+    <string name="difficulty_choose">
+        Selecciona la dificultad
+    </string>
+
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_harder">Difícil</string>
+    <string name="difficulty_expert">Experto</string>
+
+    <!-- Salir -->
+    <string name="quit_title">Salir</string>
+    <string name="quit_question">
+        ¿Quieres salir del juego?
+    </string>
+
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <string name="menu_reset_scores">Reiniciar marcador</string>
+
+    <!-- ============================================================ -->
+    <!-- NUEVO: RETO 7 - TRIQUI ONLINE                                -->
+    <!-- ============================================================ -->
+
+    <!-- Lobby -->
+    <string name="online_title">Triqui Online</string>
+    <string name="lobby_name_hint">Tu nombre</string>
+    <string name="lobby_create">Crear juego</string>
+    <string name="lobby_available">Juegos disponibles</string>
+    <string name="lobby_empty">No hay juegos disponibles. ¡Crea uno!</string>
+    <string name="lobby_vs_android">Jugar contra Android (sin conexión)</string>
+    <string name="lobby_join_label">%1$s — toca para unirte</string>
+    <string name="default_player_name">Jugador</string>
+    <string name="join_failed">No fue posible unirse: otro jugador llegó primero o el juego ya no existe.</string>
+
+    <!-- Partida online -->
+    <string name="connecting">Conectando…</string>
+    <string name="waiting_opponent">Esperando a que otro jugador se una…</string>
+    <string name="turn_opponent">Turno de %1$s.</string>
+    <string name="online_lost">¡%1$s ganó!</string>
+    <string name="online_players">Tú (%1$s) vs %2$s (%3$s)</string>
+    <string name="leave_game">Salir de la partida</string>
+    <string name="opponent_left">El otro jugador abandonó la partida.</string>
+    <string name="connection_error">Error de conexión: %1$s</string>
+
+</resources>

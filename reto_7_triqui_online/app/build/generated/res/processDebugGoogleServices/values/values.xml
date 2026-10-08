@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://example-androidtic-tac-toe-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">154148798224</string>
+    <string name="google_api_key" translatable="false">AIzaSyAaHdsJQAcByRzZcKJKBXNPO4sDJyK5rA4</string>
+    <string name="google_app_id" translatable="false">1:154148798224:android:f8b0c41a3411810fdaaf95</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAaHdsJQAcByRzZcKJKBXNPO4sDJyK5rA4</string>
+    <string name="google_storage_bucket" translatable="false">example-androidtic-tac-toe.firebasestorage.app</string>
+    <string name="project_id" translatable="false">example-androidtic-tac-toe</string>
+</resources>

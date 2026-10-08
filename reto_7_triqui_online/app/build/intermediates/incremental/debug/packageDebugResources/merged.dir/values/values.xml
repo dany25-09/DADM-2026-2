@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="connecting">Conectando…</string>
+    <string name="connection_error">Error de conexión: %1$s</string>
+    <string name="default_player_name">Jugador</string>
+    <string name="difficulty_choose">
+        Selecciona la dificultad
+    </string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_expert">Experto</string>
+    <string name="difficulty_harder">Difícil</string>
+    <string name="firebase_database_url" translatable="false">https://example-androidtic-tac-toe-default-rtdb.firebaseio.com</string>
+    <string name="first_computer">Android comienza.</string>
+    <string name="first_human">Tú comienzas.</string>
+    <string name="gcm_defaultSenderId" translatable="false">154148798224</string>
+    <string name="google_api_key" translatable="false">AIzaSyAaHdsJQAcByRzZcKJKBXNPO4sDJyK5rA4</string>
+    <string name="google_app_id" translatable="false">1:154148798224:android:f8b0c41a3411810fdaaf95</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAaHdsJQAcByRzZcKJKBXNPO4sDJyK5rA4</string>
+    <string name="google_storage_bucket" translatable="false">example-androidtic-tac-toe.firebasestorage.app</string>
+    <string name="join_failed">No fue posible unirse: otro jugador llegó primero o el juego ya no existe.</string>
+    <string name="leave_game">Salir de la partida</string>
+    <string name="lobby_available">Juegos disponibles</string>
+    <string name="lobby_create">Crear juego</string>
+    <string name="lobby_empty">No hay juegos disponibles. ¡Crea uno!</string>
+    <string name="lobby_join_label">%1$s — toca para unirte</string>
+    <string name="lobby_name_hint">Tu nombre</string>
+    <string name="lobby_vs_android">Jugar contra Android (sin conexión)</string>
+    <string name="menu_difficulty">Dificultad</string>
+    <string name="menu_new_game">Nueva partida</string>
+    <string name="menu_quit">Salir</string>
+    <string name="menu_reset_scores">Reiniciar marcador</string>
+    <string name="new_game">Nueva partida</string>
+    <string name="no">No</string>
+    <string name="online_lost">¡%1$s ganó!</string>
+    <string name="online_players">Tú (%1$s) vs %2$s (%3$s)</string>
+    <string name="online_title">Triqui Online</string>
+    <string name="opponent_left">El otro jugador abandonó la partida.</string>
+    <string name="project_id" translatable="false">example-androidtic-tac-toe</string>
+    <string name="quit_question">
+        ¿Quieres salir del juego?
+    </string>
+    <string name="quit_title">Salir</string>
+    <string name="result_computer_wins">¡Android ganó!</string>
+    <string name="result_human_wins">¡Ganaste!</string>
+    <string name="result_tie">¡Es un empate!</string>
+    <string name="score_format">
+        Tú: %1$d | Android: %2$d | Empates: %3$d
+    </string>
+    <string name="turn_computer">Turno de Android.</string>
+    <string name="turn_human">Tu turno.</string>
+    <string name="turn_opponent">Turno de %1$s.</string>
+    <string name="waiting_opponent">Esperando a que otro jugador se una…</string>
+    <string name="yes">Sí</string>
+    <style name="Theme.AndroidTicTacToe" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+</resources>
